@@ -31,7 +31,7 @@ export GOPATH=${PWD}/gopath.proto
 export GOBIN=${PWD}/bin
 export PATH="${GOBIN}:${PATH}"
 
-ETCD_IO_ROOT="${GOPATH}/src/go.etcd.io"
+ETCD_IO_ROOT="${GOPATH}/src/github.com/oldnicke/etcd"
 ETCD_ROOT="${ETCD_IO_ROOT}/etcd"
 GOGOPROTO_ROOT="${GOPATH}/src/github.com/gogo/protobuf"
 SCHWAG_ROOT="${GOPATH}/src/github.com/hexfusion/schwag"
@@ -68,7 +68,7 @@ popd
 
 for dir in ${DIRS}; do
 	pushd "${dir}"
-		protoc --gofast_out=plugins=grpc,import_prefix=go.etcd.io/:. -I=".:${GOGOPROTO_PATH}:${ETCD_IO_ROOT}:${GRPC_GATEWAY_ROOT}/third_party/googleapis" ./*.proto
+		protoc --gofast_out=plugins=grpc,import_prefix=github.com/oldnicke/etcd/:. -I=".:${GOGOPROTO_PATH}:${ETCD_IO_ROOT}:${GRPC_GATEWAY_ROOT}/third_party/googleapis" ./*.proto
 		# shellcheck disable=SC1117
 		sed -i.bak -E 's/go\.etcd\.io\/(gogoproto|github\.com|golang\.org|google\.golang\.org)/\1/g' ./*.pb.go
 		# shellcheck disable=SC1117

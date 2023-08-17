@@ -1,4 +1,4 @@
-$ORG_PATH="go.etcd.io"
+$ORG_PATH="github.com/oldnicke/etcd"
 $REPO_PATH="$ORG_PATH/etcd"
 $PWD = $((Get-Item -Path ".\" -Verbose).FullName)
 $FSROOT = $((Get-Location).Drive.Name+":")
