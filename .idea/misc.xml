@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$USER_HOME$/go/src/baidu/dba" />
+        <option value="file://$USER_HOME$/go/src/baidu/dba/dts-sdk" />
+        <option value="file://$USER_HOME$/go/src/baidu/dba/pcs_sql_cost_time" />
+        <option value="file://$USER_HOME$/go/src/baidu/dba/mdc-mysqlbinlog" />
+        <option value="file://$USER_HOME$/go/src/baidu/dba/davinci3-agent" />
+        <option value="file://$USER_HOME$/go/src/baidu/dba/cloudapollo-server" />
+        <option value="file://$USER_HOME$/go/src/baidu/dba/river" />
+        <option value="file://$USER_HOME$/go/src/baidu/dba/dts" />
+      </list>
+    </option>
+  </component>
+</project>
