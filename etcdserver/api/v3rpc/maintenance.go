@@ -3,6 +3,7 @@ package v3rpc
 import (
 	"context"
 	"crypto/sha256"
+	"github.com/dustin/go-humanize"
 	"io"
 	"time"
 

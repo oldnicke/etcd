@@ -3,6 +3,7 @@ package rafthttp
 import (
 	"bytes"
 	"context"
+	"github.com/dustin/go-humanize"
 	"io"
 	"io/ioutil"
 	"net/http"

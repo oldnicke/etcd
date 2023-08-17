@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/cheggaaa/pb"
 	v3 "github.com/oldnicke/etcd/clientv3"
 	"github.com/oldnicke/etcd/pkg/report"
-
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"
 )

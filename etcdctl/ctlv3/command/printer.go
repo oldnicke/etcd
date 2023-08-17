@@ -3,6 +3,7 @@ package command
 import (
 	"errors"
 	"fmt"
+	"github.com/dustin/go-humanize"
 	"strings"
 
 	v3 "github.com/oldnicke/etcd/clientv3"

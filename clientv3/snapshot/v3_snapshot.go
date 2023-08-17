@@ -19,6 +19,7 @@ import (
 	"crypto/sha256"
 	"encoding/json"
 	"fmt"
+	"github.com/dustin/go-humanize"
 	"hash/crc32"
 	"io"
 	"math"
