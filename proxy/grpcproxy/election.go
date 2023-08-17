@@ -17,8 +17,8 @@ package grpcproxy
 import (
 	"context"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/etcdserver/api/v3election/v3electionpb"
+	"oldnicke/etcd/clientv3"
+	"oldnicke/etcd/etcdserver/api/v3election/v3electionpb"
 )
 
 type electionProxy struct {

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/raft"
+	"oldnicke/etcd/raft"
 )
 
 func TestBasicProgress(t *testing.T) {

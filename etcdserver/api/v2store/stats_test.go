@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/pkg/testutil"
+	"oldnicke/etcd/pkg/testutil"
 )
 
 // Ensure that a successful Get is recorded in the stats.

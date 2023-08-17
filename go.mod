@@ -1,4 +1,4 @@
-module go.etcd.io/etcd
+module oldnicke/etcd
 
 go 1.18
 

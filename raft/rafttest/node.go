@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/raft"
-	"go.etcd.io/etcd/raft/raftpb"
+	"oldnicke/etcd/raft"
+	"oldnicke/etcd/raft/raftpb"
 )
 
 type node struct {

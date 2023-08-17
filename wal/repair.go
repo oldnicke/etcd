@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"go.etcd.io/etcd/pkg/fileutil"
-	"go.etcd.io/etcd/wal/walpb"
 	"go.uber.org/zap"
+	"oldnicke/etcd/pkg/fileutil"
+	"oldnicke/etcd/wal/walpb"
 )
 
 // Repair tries to repair ErrUnexpectedEOF in the

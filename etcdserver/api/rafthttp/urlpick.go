@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"sync"
 
-	"go.etcd.io/etcd/pkg/types"
+	"oldnicke/etcd/pkg/types"
 )
 
 type urlPicker struct {

@@ -4,9 +4,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/pkg/traceutil"
+	"oldnicke/etcd/lease"
+	"oldnicke/etcd/mvcc/backend"
+	"oldnicke/etcd/pkg/traceutil"
 
 	"go.uber.org/zap"
 )

@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build !cov
 // +build !cov
 
 package e2e
@@ -19,7 +20,7 @@ package e2e
 import (
 	"os"
 
-	"go.etcd.io/etcd/pkg/expect"
+	"oldnicke/etcd/pkg/expect"
 )
 
 const noOutputLineCount = 0 // regular binaries emit no extra lines

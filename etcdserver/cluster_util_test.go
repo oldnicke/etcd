@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/version"
+	"oldnicke/etcd/pkg/types"
+	"oldnicke/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

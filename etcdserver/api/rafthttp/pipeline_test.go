@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	stats "go.etcd.io/etcd/etcdserver/api/v2stats"
-	"go.etcd.io/etcd/pkg/testutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/version"
+	stats "oldnicke/etcd/etcdserver/api/v2stats"
+	"oldnicke/etcd/pkg/testutil"
+	"oldnicke/etcd/pkg/types"
+	"oldnicke/etcd/raft/raftpb"
+	"oldnicke/etcd/version"
 
 	"go.uber.org/zap"
 )

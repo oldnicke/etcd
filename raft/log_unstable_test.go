@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "go.etcd.io/etcd/raft/raftpb"
+	pb "oldnicke/etcd/raft/raftpb"
 )
 
 func TestUnstableMaybeFirstIndex(t *testing.T) {

@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	"go.etcd.io/etcd/raft/quorum"
-	pb "go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/raft/tracker"
+	"oldnicke/etcd/raft/quorum"
+	pb "oldnicke/etcd/raft/raftpb"
+	"oldnicke/etcd/raft/tracker"
 )
 
 // Changer facilitates configuration changes. It exposes methods to handle
@@ -37,9 +37,11 @@ type Changer struct {
 // config is empty and initializes it with a copy of the incoming (=left)
 // majority config. That is, it transitions from
 //
-//     (1 2 3)&&()
+//	(1 2 3)&&()
+//
 // to
-//     (1 2 3)&&(1 2 3).
+//
+//	(1 2 3)&&(1 2 3).
 //
 // The supplied changes are then applied to the incoming majority config,
 // resulting in a joint configuration that in terms of the Raft thesis[1]

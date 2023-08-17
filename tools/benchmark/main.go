@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"go.etcd.io/etcd/tools/benchmark/cmd"
+	"oldnicke/etcd/tools/benchmark/cmd"
 )
 
 func main() {

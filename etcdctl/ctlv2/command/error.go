@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/urfave/cli"
-	"go.etcd.io/etcd/client"
+	"oldnicke/etcd/client"
 )
 
 const (

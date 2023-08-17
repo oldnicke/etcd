@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/pkg/types"
+	"oldnicke/etcd/pkg/types"
 )
 
 func TestMemberUnmarshal(t *testing.T) {

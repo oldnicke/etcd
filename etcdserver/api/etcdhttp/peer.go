@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api"
-	"go.etcd.io/etcd/etcdserver/api/membership"
-	"go.etcd.io/etcd/etcdserver/api/rafthttp"
-	"go.etcd.io/etcd/lease/leasehttp"
-	"go.etcd.io/etcd/pkg/types"
+	"oldnicke/etcd/etcdserver"
+	"oldnicke/etcd/etcdserver/api"
+	"oldnicke/etcd/etcdserver/api/membership"
+	"oldnicke/etcd/etcdserver/api/rafthttp"
+	"oldnicke/etcd/lease/leasehttp"
+	"oldnicke/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

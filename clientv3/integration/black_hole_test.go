@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build !cluster_proxy
 // +build !cluster_proxy
 
 package integration
@@ -21,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	"go.etcd.io/etcd/integration"
-	"go.etcd.io/etcd/pkg/testutil"
 	"google.golang.org/grpc"
+	"oldnicke/etcd/clientv3"
+	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	"oldnicke/etcd/integration"
+	"oldnicke/etcd/pkg/testutil"
 )
 
 // TestBalancerUnderBlackholeKeepAliveWatch tests when watch discovers it cannot talk to

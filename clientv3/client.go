@@ -1,17 +1,3 @@
-// Copyright 2016 The etcd Authors
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 package clientv3
 
 import (
@@ -26,18 +12,18 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"go.etcd.io/etcd/clientv3/balancer"
-	"go.etcd.io/etcd/clientv3/balancer/picker"
-	"go.etcd.io/etcd/clientv3/balancer/resolver/endpoint"
-	"go.etcd.io/etcd/clientv3/credentials"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	"go.etcd.io/etcd/pkg/logutil"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	grpccredentials "google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/status"
+	"oldnicke/etcd/clientv3/balancer"
+	"oldnicke/etcd/clientv3/balancer/picker"
+	"oldnicke/etcd/clientv3/balancer/resolver/endpoint"
+	"oldnicke/etcd/clientv3/credentials"
+	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	"oldnicke/etcd/pkg/logutil"
 )
 
 var (

@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc/backend"
 	"go.uber.org/zap"
+	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"oldnicke/etcd/mvcc/backend"
 )
 
 const (

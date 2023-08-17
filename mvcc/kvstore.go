@@ -11,11 +11,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/mvcc/mvccpb"
-	"go.etcd.io/etcd/pkg/schedule"
-	"go.etcd.io/etcd/pkg/traceutil"
+	"oldnicke/etcd/lease"
+	"oldnicke/etcd/mvcc/backend"
+	"oldnicke/etcd/mvcc/mvccpb"
+	"oldnicke/etcd/pkg/schedule"
+	"oldnicke/etcd/pkg/traceutil"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"
@@ -34,7 +34,7 @@ var (
 	ErrCanceled  = errors.New("mvcc: watcher is canceled")
 	ErrClosed    = errors.New("mvcc: closed")
 
-	plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "mvcc")
+	plog = capnslog.NewPackageLogger("oldnicke/etcd", "mvcc")
 )
 
 const (

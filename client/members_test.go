@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/pkg/types"
+	"oldnicke/etcd/pkg/types"
 )
 
 func TestMembersAPIActionList(t *testing.T) {

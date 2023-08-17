@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/functional/rpcpb"
+	"oldnicke/etcd/clientv3"
+	"oldnicke/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

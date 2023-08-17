@@ -1,17 +1,3 @@
-// Copyright 2016 The etcd Authors
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 package command
 
 import (
@@ -24,22 +10,22 @@ import (
 	"path/filepath"
 	"time"
 
-	"go.etcd.io/etcd/client"
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api"
-	"go.etcd.io/etcd/etcdserver/api/membership"
-	"go.etcd.io/etcd/etcdserver/api/snap"
-	"go.etcd.io/etcd/etcdserver/api/v2error"
-	"go.etcd.io/etcd/etcdserver/api/v2store"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/mvcc/mvccpb"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal"
-	"go.etcd.io/etcd/wal/walpb"
+	"oldnicke/etcd/client"
+	"oldnicke/etcd/etcdserver"
+	"oldnicke/etcd/etcdserver/api"
+	"oldnicke/etcd/etcdserver/api/membership"
+	"oldnicke/etcd/etcdserver/api/snap"
+	"oldnicke/etcd/etcdserver/api/v2error"
+	"oldnicke/etcd/etcdserver/api/v2store"
+	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"oldnicke/etcd/mvcc"
+	"oldnicke/etcd/mvcc/backend"
+	"oldnicke/etcd/mvcc/mvccpb"
+	"oldnicke/etcd/pkg/pbutil"
+	"oldnicke/etcd/pkg/types"
+	"oldnicke/etcd/raft/raftpb"
+	"oldnicke/etcd/wal"
+	"oldnicke/etcd/wal/walpb"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/spf13/cobra"

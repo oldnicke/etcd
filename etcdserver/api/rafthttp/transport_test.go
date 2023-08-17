@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	stats "go.etcd.io/etcd/etcdserver/api/v2stats"
-	"go.etcd.io/etcd/pkg/testutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
+	stats "oldnicke/etcd/etcdserver/api/v2stats"
+	"oldnicke/etcd/pkg/testutil"
+	"oldnicke/etcd/pkg/types"
+	"oldnicke/etcd/raft/raftpb"
 
 	"github.com/xiang90/probing"
 )

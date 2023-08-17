@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/urfave/cli"
-	"go.etcd.io/etcd/client"
+	"oldnicke/etcd/client"
 )
 
 // NewMakeCommand returns the CLI command for "mk".

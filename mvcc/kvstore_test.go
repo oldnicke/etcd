@@ -15,12 +15,12 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/mvcc/mvccpb"
-	"go.etcd.io/etcd/pkg/schedule"
-	"go.etcd.io/etcd/pkg/testutil"
-	"go.etcd.io/etcd/pkg/traceutil"
+	"oldnicke/etcd/lease"
+	"oldnicke/etcd/mvcc/backend"
+	"oldnicke/etcd/mvcc/mvccpb"
+	"oldnicke/etcd/pkg/schedule"
+	"oldnicke/etcd/pkg/testutil"
+	"oldnicke/etcd/pkg/traceutil"
 
 	"go.uber.org/zap"
 )

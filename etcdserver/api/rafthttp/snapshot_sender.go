@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/snap"
-	"go.etcd.io/etcd/pkg/httputil"
-	pioutil "go.etcd.io/etcd/pkg/ioutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft"
+	"oldnicke/etcd/etcdserver/api/snap"
+	"oldnicke/etcd/pkg/httputil"
+	pioutil "oldnicke/etcd/pkg/ioutil"
+	"oldnicke/etcd/pkg/types"
+	"oldnicke/etcd/raft"
 
 	"github.com/dustin/go-humanize"
 	"go.uber.org/zap"

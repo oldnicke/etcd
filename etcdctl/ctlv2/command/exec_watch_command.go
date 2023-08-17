@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"os/signal"
 
-	"go.etcd.io/etcd/client"
+	"oldnicke/etcd/client"
 
 	"github.com/urfave/cli"
 )

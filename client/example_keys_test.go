@@ -20,7 +20,7 @@ import (
 	"log"
 	"sort"
 
-	"go.etcd.io/etcd/client"
+	"oldnicke/etcd/client"
 )
 
 func ExampleKeysAPI_directory() {

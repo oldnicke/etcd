@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/raft/raftpb"
+	"oldnicke/etcd/raft/raftpb"
 )
 
 type cluster struct {

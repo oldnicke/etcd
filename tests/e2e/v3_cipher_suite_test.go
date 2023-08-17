@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build !cov && !cluster_proxy
 // +build !cov,!cluster_proxy
 
 package e2e
@@ -20,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go.etcd.io/etcd/version"
+	"oldnicke/etcd/version"
 )
 
 func TestV3CurlCipherSuitesValid(t *testing.T)    { testV3CurlCipherSuites(t, true) }

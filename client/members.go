@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"path"
 
-	"go.etcd.io/etcd/pkg/types"
+	"oldnicke/etcd/pkg/types"
 )
 
 var (

@@ -1,7 +1,7 @@
 package raft
 
 import (
-	pb "go.etcd.io/etcd/raft/raftpb"
+	pb "oldnicke/etcd/raft/raftpb"
 )
 
 func applyToStore(ents []pb.Entry)    {}

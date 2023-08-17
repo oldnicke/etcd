@@ -1,17 +1,3 @@
-// Copyright 2016 The etcd Authors
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 package integration
 
 import (
@@ -20,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/clientv3/concurrency"
+	"oldnicke/etcd/clientv3"
+	"oldnicke/etcd/clientv3/concurrency"
 )
 
 // TestElectionWait tests if followers can correctly wait for elections.
@@ -202,7 +188,6 @@ func TestElectionSessionRecampaign(t *testing.T) {
 // candidate can be elected on a new key that is a prefix
 // of an existing key. To wit, check for regression
 // of bug #6278. https://github.com/etcd-io/etcd/issues/6278
-//
 func TestElectionOnPrefixOfExistingKey(t *testing.T) {
 	clus := NewClusterV3(t, &ClusterConfig{Size: 1})
 	defer clus.Terminate(t)

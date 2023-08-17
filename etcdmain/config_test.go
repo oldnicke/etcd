@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.etcd.io/etcd/embed"
+	"oldnicke/etcd/embed"
 	"sigs.k8s.io/yaml"
 )
 

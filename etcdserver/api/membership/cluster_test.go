@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/etcdserver/api/v2store"
-	"go.etcd.io/etcd/pkg/mock/mockstore"
-	"go.etcd.io/etcd/pkg/testutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
+	"oldnicke/etcd/etcdserver/api/v2store"
+	"oldnicke/etcd/pkg/mock/mockstore"
+	"oldnicke/etcd/pkg/testutil"
+	"oldnicke/etcd/pkg/types"
+	"oldnicke/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

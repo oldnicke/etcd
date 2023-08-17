@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"go.etcd.io/etcd/clientv3"
+	"oldnicke/etcd/clientv3"
 )
 
 var (

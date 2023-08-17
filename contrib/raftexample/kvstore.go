@@ -7,7 +7,7 @@ import (
 	"log"
 	"sync"
 
-	"go.etcd.io/etcd/etcdserver/api/snap"
+	"oldnicke/etcd/etcdserver/api/snap"
 )
 
 // a key-value store backed by raft

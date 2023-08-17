@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	pb "go.etcd.io/etcd/raft/raftpb"
+	pb "oldnicke/etcd/raft/raftpb"
 )
 
 type SnapshotStatus int

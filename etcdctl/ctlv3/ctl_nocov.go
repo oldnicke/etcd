@@ -12,11 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build !cov
 // +build !cov
 
 package ctlv3
 
-import "go.etcd.io/etcd/etcdctl/ctlv3/command"
+import "oldnicke/etcd/etcdctl/ctlv3/command"
 
 func Start() {
 	rootCmd.SetUsageFunc(usageFunc)

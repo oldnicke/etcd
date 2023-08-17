@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/pkg/transport"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/version"
+	"oldnicke/etcd/pkg/transport"
+	"oldnicke/etcd/pkg/types"
+	"oldnicke/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 )

@@ -4,7 +4,7 @@ import (
 	"flag"
 	"strings"
 
-	"go.etcd.io/etcd/raft/raftpb"
+	"oldnicke/etcd/raft/raftpb"
 )
 
 func main() {

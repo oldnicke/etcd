@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/version"
+	"oldnicke/etcd/version"
 )
 
 var (

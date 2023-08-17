@@ -7,7 +7,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.etcd.io/etcd/etcdserver/api/v2error"
+	"oldnicke/etcd/etcdserver/api/v2error"
 )
 
 // A watcherHub contains all subscribed watchers

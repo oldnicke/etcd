@@ -4,7 +4,7 @@ package pbutil
 import "github.com/coreos/pkg/capnslog"
 
 var (
-	plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "pkg/pbutil")
+	plog = capnslog.NewPackageLogger("oldnicke/etcd", "pkg/pbutil")
 )
 
 type Marshaler interface {

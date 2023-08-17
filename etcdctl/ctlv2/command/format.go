@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"go.etcd.io/etcd/client"
+	"oldnicke/etcd/client"
 )
 
 // printResponseKey only supports to print key correctly.

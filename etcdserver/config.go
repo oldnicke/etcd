@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/pkg/netutil"
-	"go.etcd.io/etcd/pkg/transport"
-	"go.etcd.io/etcd/pkg/types"
+	"oldnicke/etcd/pkg/netutil"
+	"oldnicke/etcd/pkg/transport"
+	"oldnicke/etcd/pkg/types"
 
 	bolt "go.etcd.io/bbolt"
 	"go.uber.org/zap"

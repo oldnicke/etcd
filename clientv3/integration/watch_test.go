@@ -1,17 +1,3 @@
-// Copyright 2016 The etcd Authors
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 package integration
 
 import (
@@ -23,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	"go.etcd.io/etcd/integration"
-	mvccpb "go.etcd.io/etcd/mvcc/mvccpb"
-	"go.etcd.io/etcd/pkg/testutil"
+	"oldnicke/etcd/clientv3"
+	"oldnicke/etcd/etcdserver/api/v3rpc"
+	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	"oldnicke/etcd/integration"
+	mvccpb "oldnicke/etcd/mvcc/mvccpb"
+	"oldnicke/etcd/pkg/testutil"
 
 	"google.golang.org/grpc/metadata"
 )
@@ -1010,12 +996,12 @@ func TestWatchCancelOnServer(t *testing.T) {
 // TestWatchOverlapContextCancel stresses the watcher stream teardown path by
 // creating/canceling watchers to ensure that new watchers are not taken down
 // by a torn down watch stream. The sort of race that's being detected:
-//     1. create w1 using a cancelable ctx with %v as "ctx"
-//     2. cancel ctx
-//     3. watcher client begins tearing down watcher grpc stream since no more watchers
-//     3. start creating watcher w2 using a new "ctx" (not canceled), attaches to old grpc stream
-//     4. watcher client finishes tearing down stream on "ctx"
-//     5. w2 comes back canceled
+//  1. create w1 using a cancelable ctx with %v as "ctx"
+//  2. cancel ctx
+//  3. watcher client begins tearing down watcher grpc stream since no more watchers
+//  3. start creating watcher w2 using a new "ctx" (not canceled), attaches to old grpc stream
+//  4. watcher client finishes tearing down stream on "ctx"
+//  5. w2 comes back canceled
 func TestWatchOverlapContextCancel(t *testing.T) {
 	f := func(clus *integration.ClusterV3) {}
 	testWatchOverlapContextCancel(t, f)

@@ -28,14 +28,14 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/snap"
-	"go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal"
-	"go.etcd.io/etcd/wal/walpb"
 	"go.uber.org/zap"
+	"oldnicke/etcd/etcdserver/api/snap"
+	"oldnicke/etcd/etcdserver/etcdserverpb"
+	"oldnicke/etcd/pkg/pbutil"
+	"oldnicke/etcd/pkg/types"
+	"oldnicke/etcd/raft/raftpb"
+	"oldnicke/etcd/wal"
+	"oldnicke/etcd/wal/walpb"
 )
 
 func main() {

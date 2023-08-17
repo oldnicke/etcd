@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/auth"
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	"oldnicke/etcd/auth"
+	"oldnicke/etcd/etcdserver"
+	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"oldnicke/etcd/mvcc"
+	"oldnicke/etcd/mvcc/mvccpb"
 
 	"go.uber.org/zap"
 )

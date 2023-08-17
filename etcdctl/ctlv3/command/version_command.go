@@ -3,7 +3,7 @@ package command
 import (
 	"fmt"
 
-	"go.etcd.io/etcd/version"
+	"oldnicke/etcd/version"
 
 	"github.com/spf13/cobra"
 )

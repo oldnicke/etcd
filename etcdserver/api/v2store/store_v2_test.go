@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build !v2v3
 // +build !v2v3
 
 package v2store_test
@@ -19,8 +20,8 @@ package v2store_test
 import (
 	"testing"
 
-	"go.etcd.io/etcd/etcdserver/api/v2store"
-	"go.etcd.io/etcd/pkg/testutil"
+	"oldnicke/etcd/etcdserver/api/v2store"
+	"oldnicke/etcd/pkg/testutil"
 )
 
 type v2TestStore struct {

@@ -7,9 +7,9 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/pkg/report"
-	"go.etcd.io/etcd/pkg/traceutil"
+	"oldnicke/etcd/lease"
+	"oldnicke/etcd/pkg/report"
+	"oldnicke/etcd/pkg/traceutil"
 
 	"github.com/spf13/cobra"
 )

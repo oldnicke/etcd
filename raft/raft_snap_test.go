@@ -3,7 +3,7 @@ package raft
 import (
 	"testing"
 
-	pb "go.etcd.io/etcd/raft/raftpb"
+	pb "oldnicke/etcd/raft/raftpb"
 )
 
 var (

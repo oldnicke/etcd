@@ -28,8 +28,8 @@ To build a vendored `etcd` from the `master` branch via `go get`:
 # GOPATH should be set
 $ echo $GOPATH
 /Users/example/go
-$ go get -v go.etcd.io/etcd
-$ go get -v go.etcd.io/etcd/etcdctl
+$ go get -v oldnicke/etcd
+$ go get -v oldnicke/etcd/etcdctl
 ```
 
 ## Test the installation

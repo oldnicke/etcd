@@ -13,19 +13,19 @@ import (
 	"time"
 
 	"github.com/coreos/pkg/capnslog"
-	"go.etcd.io/etcd/etcdserver/api/snap/snappb"
-	pioutil "go.etcd.io/etcd/pkg/ioutil"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/raft"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal/walpb"
 	"go.uber.org/zap"
+	"oldnicke/etcd/etcdserver/api/snap/snappb"
+	pioutil "oldnicke/etcd/pkg/ioutil"
+	"oldnicke/etcd/pkg/pbutil"
+	"oldnicke/etcd/raft"
+	"oldnicke/etcd/raft/raftpb"
+	"oldnicke/etcd/wal/walpb"
 )
 
 const snapSuffix = ".snap"
 
 var (
-	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "snap")
+	plog = capnslog.NewPackageLogger("oldnicke/etcd/v3", "snap")
 
 	ErrNoSnapshot    = errors.New("snap: no available snapshot")
 	ErrEmptySnapshot = errors.New("snap: empty snapshot")

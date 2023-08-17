@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/pkg/fileutil"
+	"oldnicke/etcd/pkg/fileutil"
 
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal/walpb"
 	"go.uber.org/zap"
+	"oldnicke/etcd/raft/raftpb"
+	"oldnicke/etcd/wal/walpb"
 )
 
 var testSnap = &raftpb.Snapshot{

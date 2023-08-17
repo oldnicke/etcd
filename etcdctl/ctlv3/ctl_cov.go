@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build cov
 // +build cov
 
 package ctlv3
@@ -20,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"go.etcd.io/etcd/etcdctl/ctlv3/command"
+	"oldnicke/etcd/etcdctl/ctlv3/command"
 )
 
 func Start() {

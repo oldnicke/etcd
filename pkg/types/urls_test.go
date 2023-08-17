@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/pkg/testutil"
+	"oldnicke/etcd/pkg/testutil"
 )
 
 func TestNewURLs(t *testing.T) {

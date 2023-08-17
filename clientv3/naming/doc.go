@@ -17,8 +17,8 @@
 // To use, first import the packages:
 //
 //	import (
-//		"go.etcd.io/etcd/clientv3"
-//		etcdnaming "go.etcd.io/etcd/clientv3/naming"
+//		"oldnicke/etcd/clientv3"
+//		etcdnaming "oldnicke/etcd/clientv3/naming"
 //
 //		"google.golang.org/grpc"
 //		"google.golang.org/grpc/naming"
@@ -52,5 +52,4 @@
 //		r := &etcdnaming.GRPCResolver{Client: c}
 //		return r.Update(c.Ctx(), service, naming.Update{Op: naming.Add, Addr: addr}, clientv3.WithLease(lid))
 //	}
-//
 package naming

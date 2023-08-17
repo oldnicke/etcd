@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/version"
+	"oldnicke/etcd/raft/raftpb"
+	"oldnicke/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 )

@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"go.etcd.io/etcd/pkg/fileutil"
+	"oldnicke/etcd/pkg/fileutil"
 )
 
 // WriteAndSyncFile behaves just like ioutil.WriteFile in the standard library,

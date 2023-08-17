@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build !windows
 // +build !windows
 
 package logutil
@@ -24,7 +25,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.etcd.io/etcd/pkg/systemd"
+	"oldnicke/etcd/pkg/systemd"
 
 	"github.com/coreos/go-systemd/journal"
 	"go.uber.org/zap/zapcore"

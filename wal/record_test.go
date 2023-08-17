@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/wal/walpb"
+	"oldnicke/etcd/wal/walpb"
 )
 
 var (

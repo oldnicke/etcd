@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"go.etcd.io/etcd/client"
-	"go.etcd.io/etcd/pkg/pathutil"
+	"oldnicke/etcd/client"
+	"oldnicke/etcd/pkg/pathutil"
 )
 
 func NewRoleCommands() cli.Command {

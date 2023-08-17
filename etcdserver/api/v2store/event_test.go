@@ -3,7 +3,7 @@ package v2store
 import (
 	"testing"
 
-	"go.etcd.io/etcd/etcdserver/api/v2error"
+	"oldnicke/etcd/etcdserver/api/v2error"
 )
 
 // TestEventQueue tests a queue with capacity = 100

@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "pkg/osutil")
+	plog = capnslog.NewPackageLogger("oldnicke/etcd", "pkg/osutil")
 
 	// support to override setting SIG_DFL so tests don't terminate early
 	setDflSignal = dflSignal

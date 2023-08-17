@@ -1,17 +1,3 @@
-// Copyright 2016 The etcd Authors
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 package embed
 
 import (
@@ -29,18 +15,18 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api/etcdhttp"
-	"go.etcd.io/etcd/etcdserver/api/rafthttp"
-	"go.etcd.io/etcd/etcdserver/api/v2http"
-	"go.etcd.io/etcd/etcdserver/api/v2v3"
-	"go.etcd.io/etcd/etcdserver/api/v3client"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc"
-	"go.etcd.io/etcd/pkg/debugutil"
-	runtimeutil "go.etcd.io/etcd/pkg/runtime"
-	"go.etcd.io/etcd/pkg/transport"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/version"
+	"oldnicke/etcd/etcdserver"
+	"oldnicke/etcd/etcdserver/api/etcdhttp"
+	"oldnicke/etcd/etcdserver/api/rafthttp"
+	"oldnicke/etcd/etcdserver/api/v2http"
+	"oldnicke/etcd/etcdserver/api/v2v3"
+	"oldnicke/etcd/etcdserver/api/v3client"
+	"oldnicke/etcd/etcdserver/api/v3rpc"
+	"oldnicke/etcd/pkg/debugutil"
+	runtimeutil "oldnicke/etcd/pkg/runtime"
+	"oldnicke/etcd/pkg/transport"
+	"oldnicke/etcd/pkg/types"
+	"oldnicke/etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
@@ -50,7 +36,7 @@ import (
 	"google.golang.org/grpc/keepalive"
 )
 
-var plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "embed")
+var plog = capnslog.NewPackageLogger("oldnicke/etcd", "embed")
 
 const (
 	// internal fd usage includes disk usage and transport usage.
