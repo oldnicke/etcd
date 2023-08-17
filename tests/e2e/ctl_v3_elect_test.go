@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/pkg/expect"
+	"github.com/oldnicke/etcd/pkg/expect"
 )
 
 func TestCtlV3Elect(t *testing.T) {

@@ -3,8 +3,8 @@ package raft
 import (
 	"errors"
 
-	pb "oldnicke/etcd/raft/raftpb"
-	"oldnicke/etcd/raft/tracker"
+	pb "github.com/oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/raft/tracker"
 )
 
 // ErrStepLocalMsg is returned when try to step a local raft message

@@ -21,10 +21,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/etcdserver/api/v2store"
-	"oldnicke/etcd/etcdserver/api/v2v3"
-	"oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/etcdserver/api/v2store"
+	"github.com/oldnicke/etcd/etcdserver/api/v2v3"
+	"github.com/oldnicke/etcd/integration"
 
 	"google.golang.org/grpc/grpclog"
 )

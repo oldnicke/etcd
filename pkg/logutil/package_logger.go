@@ -27,7 +27,7 @@ var _ Logger = &packageLogger{}
 // For example:
 //
 //	var defaultLogger Logger
-//	defaultLogger = NewPackageLogger("oldnicke/etcd", "snapshot")
+//	defaultLogger = NewPackageLogger("github.com/oldnicke/etcd", "snapshot")
 func NewPackageLogger(repo, pkg string) Logger {
 	return &packageLogger{p: capnslog.NewPackageLogger(repo, pkg)}
 }

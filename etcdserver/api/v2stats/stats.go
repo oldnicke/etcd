@@ -3,7 +3,7 @@ package v2stats
 
 import "github.com/coreos/pkg/capnslog"
 
-var plog = capnslog.NewPackageLogger("oldnicke/etcd", "etcdserver/stats")
+var plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "etcdserver/stats")
 
 type Stats interface {
 	// SelfStats returns the struct representing statistics of this server

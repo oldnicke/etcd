@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/oldnicke/etcd/mvcc/backend"
 	"go.uber.org/zap"
-	"oldnicke/etcd/mvcc/backend"
 )
 
 func BenchmarkLessorGrant1000(b *testing.B)   { benchmarkLessorGrant(1000, b) }

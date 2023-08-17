@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"testing"
 
-	v3 "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/concurrency"
-	"oldnicke/etcd/pkg/testutil"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/concurrency"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 // TestSTMConflict tests that conflicts are retried.

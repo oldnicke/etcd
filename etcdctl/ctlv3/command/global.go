@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/bgentry/speakeasy"
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/pkg/flags"
-	"oldnicke/etcd/pkg/srv"
-	"oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/pkg/flags"
+	"github.com/oldnicke/etcd/pkg/srv"
+	"github.com/oldnicke/etcd/pkg/transport"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

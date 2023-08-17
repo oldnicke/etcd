@@ -1,7 +1,7 @@
 package client
 
 import (
-	"oldnicke/etcd/pkg/srv"
+	"github.com/oldnicke/etcd/pkg/srv"
 )
 
 // Discoverer is an interface that wraps the Discover method.

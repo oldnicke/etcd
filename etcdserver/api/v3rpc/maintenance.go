@@ -6,15 +6,14 @@ import (
 	"io"
 	"time"
 
-	"github.com/dustin/go-humanize"
-	"oldnicke/etcd/auth"
-	"oldnicke/etcd/etcdserver"
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/mvcc"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/raft"
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/auth"
+	"github.com/oldnicke/etcd/etcdserver"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/mvcc"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/raft"
+	"github.com/oldnicke/etcd/version"
 
 	"go.uber.org/zap"
 )

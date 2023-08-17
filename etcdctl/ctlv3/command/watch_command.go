@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3"
 
 	"github.com/spf13/cobra"
 )

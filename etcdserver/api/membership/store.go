@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"path"
 
-	"oldnicke/etcd/etcdserver/api/v2store"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/etcdserver/api/v2store"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 )

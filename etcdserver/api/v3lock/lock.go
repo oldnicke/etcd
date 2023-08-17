@@ -17,9 +17,9 @@ package v3lock
 import (
 	"context"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/concurrency"
-	"oldnicke/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/concurrency"
+	"github.com/oldnicke/etcd/etcdserver/api/v3lock/v3lockpb"
 )
 
 type lockServer struct {

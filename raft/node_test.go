@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/pkg/testutil"
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/raft/raftpb"
 )
 
 // readyWithTimeout selects from n.Ready() with a 1-second timeout. It

@@ -2,7 +2,7 @@
 // against a fault injected cluster.
 package main
 
-import "oldnicke/etcd/functional/runner"
+import "github.com/oldnicke/etcd/functional/runner"
 
 func main() {
 	runner.Start()

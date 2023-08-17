@@ -3,7 +3,7 @@ package raft
 import (
 	"testing"
 
-	pb "oldnicke/etcd/raft/raftpb"
+	pb "github.com/oldnicke/etcd/raft/raftpb"
 )
 
 // TestMsgAppFlowControlFull ensures:

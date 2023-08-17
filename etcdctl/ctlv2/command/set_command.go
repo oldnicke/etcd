@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/oldnicke/etcd/client"
 	"github.com/urfave/cli"
-	"oldnicke/etcd/client"
 )
 
 // NewSetCommand returns the CLI command for "set".

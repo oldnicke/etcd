@@ -14,8 +14,8 @@ import (
 	"syscall"
 	"time"
 
-	"oldnicke/etcd/client"
-	"oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/client"
+	"github.com/oldnicke/etcd/pkg/transport"
 
 	"github.com/bgentry/speakeasy"
 	"github.com/urfave/cli"

@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/integration"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 // TestWatchFragmentDisable ensures that large watch

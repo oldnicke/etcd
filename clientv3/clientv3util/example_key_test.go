@@ -18,8 +18,8 @@ import (
 	"context"
 	"log"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/clientv3util"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/clientv3util"
 )
 
 func ExampleKeyMissing() {

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
+	"github.com/oldnicke/etcd/client"
 	"github.com/urfave/cli"
-	"oldnicke/etcd/client"
 )
 
 // NewMakeDirCommand returns the CLI command for "mkdir".

@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"testing"
 
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 var (

@@ -6,11 +6,10 @@ import (
 	"sync"
 	"time"
 
-	v3 "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/pkg/report"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
-	"gopkg.in/cheggaaa/pb.v1"
 )
 
 // watchGetCmd represents the watch command

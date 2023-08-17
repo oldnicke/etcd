@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"oldnicke/etcd/pkg/expect"
+	"github.com/oldnicke/etcd/pkg/expect"
 )
 
 const exampleConfigFile = "../../etcd.conf.yml.sample"

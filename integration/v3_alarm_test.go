@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/mvcc"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/pkg/testutil"
-	"oldnicke/etcd/pkg/traceutil"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/mvcc"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/traceutil"
 
 	"go.uber.org/zap"
 )

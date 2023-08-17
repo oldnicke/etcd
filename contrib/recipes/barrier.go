@@ -3,8 +3,8 @@ package recipe
 import (
 	"context"
 
-	v3 "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/mvcc/mvccpb"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
 )
 
 // Barrier creates a key in etcd to block processes, then deletes the key to

@@ -25,9 +25,9 @@ import (
 	"syscall"
 	"time"
 
-	"oldnicke/etcd/pkg/expect"
-	"oldnicke/etcd/pkg/fileutil"
-	"oldnicke/etcd/pkg/flags"
+	"github.com/oldnicke/etcd/pkg/expect"
+	"github.com/oldnicke/etcd/pkg/fileutil"
+	"github.com/oldnicke/etcd/pkg/flags"
 )
 
 const noOutputLineCount = 2 // cov-enabled binaries emit PASS and coverage count lines

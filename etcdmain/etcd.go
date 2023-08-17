@@ -12,17 +12,17 @@ import (
 	"strings"
 	"time"
 
-	"oldnicke/etcd/embed"
-	"oldnicke/etcd/etcdserver"
-	"oldnicke/etcd/etcdserver/api/etcdhttp"
-	"oldnicke/etcd/etcdserver/api/v2discovery"
-	"oldnicke/etcd/pkg/fileutil"
-	pkgioutil "oldnicke/etcd/pkg/ioutil"
-	"oldnicke/etcd/pkg/osutil"
-	"oldnicke/etcd/pkg/transport"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/proxy/httpproxy"
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/embed"
+	"github.com/oldnicke/etcd/etcdserver"
+	"github.com/oldnicke/etcd/etcdserver/api/etcdhttp"
+	"github.com/oldnicke/etcd/etcdserver/api/v2discovery"
+	"github.com/oldnicke/etcd/pkg/fileutil"
+	pkgioutil "github.com/oldnicke/etcd/pkg/ioutil"
+	"github.com/oldnicke/etcd/pkg/osutil"
+	"github.com/oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/proxy/httpproxy"
+	"github.com/oldnicke/etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"
@@ -31,7 +31,7 @@ import (
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("oldnicke/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "etcdmain")
 
 var (
 	dirMember = dirType("member")

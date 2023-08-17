@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"oldnicke/etcd/auth"
+	"github.com/oldnicke/etcd/auth"
 )
 
 // TestStartEtcdWrongToken ensures that StartEtcd with wrong configs returns with error.

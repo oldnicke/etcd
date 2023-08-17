@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/pkg/types"
 )
 
 func timeParse(value string) *time.Time {

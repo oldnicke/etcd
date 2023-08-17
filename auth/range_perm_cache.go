@@ -1,9 +1,9 @@
 package auth
 
 import (
-	"oldnicke/etcd/auth/authpb"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/pkg/adt"
+	"github.com/oldnicke/etcd/auth/authpb"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/pkg/adt"
 
 	"go.uber.org/zap"
 )

@@ -9,10 +9,10 @@ import (
 	"net/http"
 	"time"
 
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/lease"
-	"oldnicke/etcd/lease/leasepb"
-	"oldnicke/etcd/pkg/httputil"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/lease"
+	"github.com/oldnicke/etcd/lease/leasepb"
+	"github.com/oldnicke/etcd/pkg/httputil"
 )
 
 var (

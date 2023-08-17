@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	stats "oldnicke/etcd/etcdserver/api/v2stats"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/raft/raftpb"
+	stats "github.com/oldnicke/etcd/etcdserver/api/v2stats"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/raft/raftpb"
 )
 
 func TestMsgAppV2(t *testing.T) {

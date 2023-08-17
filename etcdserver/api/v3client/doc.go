@@ -19,8 +19,8 @@
 //	import (
 //		"context"
 //
-//		"oldnicke/etcd/embed"
-//		"oldnicke/etcd/etcdserver/api/v3client"
+//		"github.com/oldnicke/etcd/embed"
+//		"github.com/oldnicke/etcd/etcdserver/api/v3client"
 //	)
 //
 //	...

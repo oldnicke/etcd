@@ -7,9 +7,9 @@ import (
 	"sync"
 
 	"github.com/golang/groupcache/lru"
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/pkg/adt"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/pkg/adt"
 )
 
 var (

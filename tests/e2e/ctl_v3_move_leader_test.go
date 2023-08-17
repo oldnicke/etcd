@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/pkg/testutil"
-	"oldnicke/etcd/pkg/transport"
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/pkg/types"
 )
 
 func TestCtlV3MoveLeaderSecure(t *testing.T) {

@@ -12,18 +12,18 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	"github.com/oldnicke/etcd/clientv3/balancer"
+	"github.com/oldnicke/etcd/clientv3/balancer/picker"
+	"github.com/oldnicke/etcd/clientv3/balancer/resolver/endpoint"
+	"github.com/oldnicke/etcd/clientv3/credentials"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/oldnicke/etcd/pkg/logutil"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	grpccredentials "google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/status"
-	"oldnicke/etcd/clientv3/balancer"
-	"oldnicke/etcd/clientv3/balancer/picker"
-	"oldnicke/etcd/clientv3/balancer/resolver/endpoint"
-	"oldnicke/etcd/clientv3/credentials"
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	"oldnicke/etcd/pkg/logutil"
 )
 
 var (

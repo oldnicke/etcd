@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/pkg/flags"
-	"oldnicke/etcd/pkg/testutil"
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/pkg/flags"
+	"github.com/oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/version"
 )
 
 func TestCtlV3Version(t *testing.T) { testCtl(t, versionTest) }

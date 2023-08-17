@@ -15,18 +15,18 @@ import (
 	"sync"
 	"time"
 
-	"oldnicke/etcd/etcdserver"
-	"oldnicke/etcd/etcdserver/api/etcdhttp"
-	"oldnicke/etcd/etcdserver/api/rafthttp"
-	"oldnicke/etcd/etcdserver/api/v2http"
-	"oldnicke/etcd/etcdserver/api/v2v3"
-	"oldnicke/etcd/etcdserver/api/v3client"
-	"oldnicke/etcd/etcdserver/api/v3rpc"
-	"oldnicke/etcd/pkg/debugutil"
-	runtimeutil "oldnicke/etcd/pkg/runtime"
-	"oldnicke/etcd/pkg/transport"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/etcdserver"
+	"github.com/oldnicke/etcd/etcdserver/api/etcdhttp"
+	"github.com/oldnicke/etcd/etcdserver/api/rafthttp"
+	"github.com/oldnicke/etcd/etcdserver/api/v2http"
+	"github.com/oldnicke/etcd/etcdserver/api/v2v3"
+	"github.com/oldnicke/etcd/etcdserver/api/v3client"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc"
+	"github.com/oldnicke/etcd/pkg/debugutil"
+	runtimeutil "github.com/oldnicke/etcd/pkg/runtime"
+	"github.com/oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
@@ -36,7 +36,7 @@ import (
 	"google.golang.org/grpc/keepalive"
 )
 
-var plog = capnslog.NewPackageLogger("oldnicke/etcd", "embed")
+var plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "embed")
 
 const (
 	// internal fd usage includes disk usage and transport usage.

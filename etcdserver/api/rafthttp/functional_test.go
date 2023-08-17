@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	stats "oldnicke/etcd/etcdserver/api/v2stats"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/raft"
-	"oldnicke/etcd/raft/raftpb"
+	stats "github.com/oldnicke/etcd/etcdserver/api/v2stats"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/raft"
+	"github.com/oldnicke/etcd/raft/raftpb"
 )
 
 func TestSendMessage(t *testing.T) {

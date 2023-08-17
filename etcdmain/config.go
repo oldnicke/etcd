@@ -12,11 +12,11 @@ import (
 	"runtime"
 	"strings"
 
-	"oldnicke/etcd/embed"
-	"oldnicke/etcd/pkg/flags"
-	"oldnicke/etcd/pkg/logutil"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/embed"
+	"github.com/oldnicke/etcd/pkg/flags"
+	"github.com/oldnicke/etcd/pkg/logutil"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/version"
 
 	"go.uber.org/zap"
 	"sigs.k8s.io/yaml"

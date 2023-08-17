@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/concurrency"
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	"oldnicke/etcd/integration"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/concurrency"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func TestLeaseNotFoundError(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"oldnicke/etcd/pkg/fileutil"
+	"github.com/oldnicke/etcd/pkg/fileutil"
 
 	"go.uber.org/zap"
 )

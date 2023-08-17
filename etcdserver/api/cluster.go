@@ -1,8 +1,8 @@
 package api
 
 import (
-	"oldnicke/etcd/etcdserver/api/membership"
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/etcdserver/api/membership"
+	"github.com/oldnicke/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 )

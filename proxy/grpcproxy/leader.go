@@ -19,7 +19,7 @@ import (
 	"math"
 	"sync"
 
-	"oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3"
 
 	"golang.org/x/time/rate"
 )

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	v3rpc "oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	mvccpb "oldnicke/etcd/mvcc/mvccpb"
+	v3rpc "github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	mvccpb "github.com/oldnicke/etcd/mvcc/mvccpb"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

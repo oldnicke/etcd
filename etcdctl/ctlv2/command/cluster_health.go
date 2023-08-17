@@ -10,7 +10,7 @@ import (
 	"os/signal"
 	"time"
 
-	"oldnicke/etcd/client"
+	"github.com/oldnicke/etcd/client"
 
 	"github.com/urfave/cli"
 )

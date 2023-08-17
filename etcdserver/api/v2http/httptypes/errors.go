@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("oldnicke/etcd", "etcdserver/api/v2http/httptypes")
+	plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "etcdserver/api/v2http/httptypes")
 )
 
 type HTTPError struct {

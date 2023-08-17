@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

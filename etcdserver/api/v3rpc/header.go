@@ -1,8 +1,8 @@
 package v3rpc
 
 import (
-	"oldnicke/etcd/etcdserver"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/etcdserver"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 )
 
 type header struct {

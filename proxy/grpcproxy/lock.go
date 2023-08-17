@@ -17,8 +17,8 @@ package grpcproxy
 import (
 	"context"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/etcdserver/api/v3lock/v3lockpb"
 )
 
 type lockProxy struct {

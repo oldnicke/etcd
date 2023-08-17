@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 )
 
 func TestCtlV3MemberList(t *testing.T)          { testCtl(t, memberListTest) }

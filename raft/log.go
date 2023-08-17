@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "oldnicke/etcd/raft/raftpb"
+	pb "github.com/oldnicke/etcd/raft/raftpb"
 )
 
 type raftLog struct {

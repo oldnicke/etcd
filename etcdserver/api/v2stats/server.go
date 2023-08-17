@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"oldnicke/etcd/raft"
+	"github.com/oldnicke/etcd/raft"
 )
 
 // ServerStats encapsulates various statistics about an EtcdServer and its

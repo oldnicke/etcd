@@ -1,9 +1,9 @@
 package mockstorage
 
 import (
-	"oldnicke/etcd/pkg/testutil"
-	"oldnicke/etcd/raft"
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/raft"
+	"github.com/oldnicke/etcd/raft/raftpb"
 )
 
 type storageRecorder struct {

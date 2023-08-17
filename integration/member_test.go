@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"oldnicke/etcd/client"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/client"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func TestPauseMember(t *testing.T) {

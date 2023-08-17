@@ -14,11 +14,11 @@ import (
 	"time"
 
 	"github.com/coreos/pkg/capnslog"
-	"oldnicke/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/oldnicke/etcd/etcdserver/api/v2http/httptypes"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("oldnicke/etcd", "proxy/httpproxy")
+	plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "proxy/httpproxy")
 
 	// Hop-by-hop headers. These are removed when sent to the backend.
 	// http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html

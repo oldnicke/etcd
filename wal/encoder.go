@@ -7,9 +7,9 @@ import (
 	"os"
 	"sync"
 
-	"oldnicke/etcd/pkg/crc"
-	"oldnicke/etcd/pkg/ioutil"
-	"oldnicke/etcd/wal/walpb"
+	"github.com/oldnicke/etcd/pkg/crc"
+	"github.com/oldnicke/etcd/pkg/ioutil"
+	"github.com/oldnicke/etcd/wal/walpb"
 )
 
 // walPageBytes is the alignment for flushing records to the backing Writer.

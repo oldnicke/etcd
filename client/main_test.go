@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/integration"
-	"oldnicke/etcd/pkg/testutil"
-	"oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/transport"
 )
 
 var exampleEndpoints []string

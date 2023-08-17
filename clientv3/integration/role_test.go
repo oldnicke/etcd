@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	"oldnicke/etcd/integration"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func TestRoleError(t *testing.T) {

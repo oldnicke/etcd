@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/concurrency"
-	"oldnicke/etcd/clientv3/leasing"
-	"oldnicke/etcd/integration"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/concurrency"
+	"github.com/oldnicke/etcd/clientv3/leasing"
+	"github.com/oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func TestLeasingPutGet(t *testing.T) {

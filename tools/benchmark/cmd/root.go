@@ -4,10 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/pkg/transport"
 
 	"github.com/spf13/cobra"
-	"gopkg.in/cheggaaa/pb.v1"
 )
 
 // This represents the base command when called without any subcommands

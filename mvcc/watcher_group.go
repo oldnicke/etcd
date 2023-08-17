@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"oldnicke/etcd/mvcc/mvccpb"
-	"oldnicke/etcd/pkg/adt"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
+	"github.com/oldnicke/etcd/pkg/adt"
 )
 
 var (

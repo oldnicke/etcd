@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3"
 )
 
 func ExampleWatcher_watch() {

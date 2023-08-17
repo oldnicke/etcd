@@ -7,10 +7,10 @@ import (
 	"os"
 	"sync"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/naming"
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/naming"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 
 	"golang.org/x/time/rate"
 	gnaming "google.golang.org/grpc/naming"

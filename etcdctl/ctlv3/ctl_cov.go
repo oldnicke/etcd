@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"oldnicke/etcd/etcdctl/ctlv3/command"
+	"github.com/oldnicke/etcd/etcdctl/ctlv3/command"
 )
 
 func Start() {

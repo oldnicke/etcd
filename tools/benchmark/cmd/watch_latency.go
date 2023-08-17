@@ -7,12 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/pkg/report"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"
-	"gopkg.in/cheggaaa/pb.v1"
 )
 
 // watchLatencyCmd represents the watch latency command

@@ -6,9 +6,9 @@ import (
 
 	"net/http"
 
-	"oldnicke/etcd/etcdserver/api/v2error"
-	"oldnicke/etcd/etcdserver/api/v2http/httptypes"
-	"oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/etcdserver/api/v2error"
+	"github.com/oldnicke/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"oldnicke/etcd/clientv3"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/clientv3"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 
 	"github.com/spf13/cobra"
 )

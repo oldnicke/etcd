@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/v2error"
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/etcdserver/api/v2error"
+	"github.com/oldnicke/etcd/pkg/types"
 
 	"github.com/jonboulle/clockwork"
 )

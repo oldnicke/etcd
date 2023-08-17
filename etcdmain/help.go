@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/oldnicke/etcd/embed"
 	"golang.org/x/crypto/bcrypt"
-	"oldnicke/etcd/embed"
 )
 
 var (

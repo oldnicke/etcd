@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	"oldnicke/etcd/integration"
-	"oldnicke/etcd/mvcc/mvccpb"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
+	"github.com/oldnicke/etcd/pkg/testutil"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

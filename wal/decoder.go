@@ -7,10 +7,10 @@ import (
 	"io"
 	"sync"
 
-	"oldnicke/etcd/pkg/crc"
-	"oldnicke/etcd/pkg/pbutil"
-	"oldnicke/etcd/raft/raftpb"
-	"oldnicke/etcd/wal/walpb"
+	"github.com/oldnicke/etcd/pkg/crc"
+	"github.com/oldnicke/etcd/pkg/pbutil"
+	"github.com/oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/wal/walpb"
 )
 
 const minSectorSize = 512

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 )
 
 // TestOpWithSort tests if WithSort(ASCEND, KEY) and WithLimit are specified,

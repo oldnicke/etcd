@@ -6,9 +6,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"oldnicke/etcd/lease"
-	"oldnicke/etcd/mvcc"
-	"oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/lease"
+	"github.com/oldnicke/etcd/mvcc"
+	"github.com/oldnicke/etcd/mvcc/backend"
 
 	"github.com/spf13/cobra"
 )

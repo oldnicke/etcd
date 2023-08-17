@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/raft/raftpb"
 )
 
 func TestMessage(t *testing.T) {

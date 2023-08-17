@@ -4,7 +4,7 @@ import (
 	"context"
 	"math"
 
-	v3 "oldnicke/etcd/clientv3"
+	v3 "github.com/oldnicke/etcd/clientv3"
 )
 
 // STM is an interface for software transactional memory.

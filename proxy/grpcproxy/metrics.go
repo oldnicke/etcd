@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/oldnicke/etcd/etcdserver/api/etcdhttp"
 	"github.com/prometheus/client_golang/prometheus"
-	"oldnicke/etcd/etcdserver/api/etcdhttp"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/pkg/stringutil"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/pkg/stringutil"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"

@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
-	etcd "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/integration"
-	"oldnicke/etcd/pkg/testutil"
+	etcd "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/pkg/testutil"
 
 	"google.golang.org/grpc/naming"
 )

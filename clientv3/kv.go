@@ -3,7 +3,7 @@ package clientv3
 import (
 	"context"
 
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 )

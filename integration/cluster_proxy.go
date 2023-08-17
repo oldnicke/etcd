@@ -6,10 +6,10 @@ package integration
 import (
 	"sync"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/namespace"
-	"oldnicke/etcd/proxy/grpcproxy"
-	"oldnicke/etcd/proxy/grpcproxy/adapter"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/namespace"
+	"github.com/oldnicke/etcd/proxy/grpcproxy"
+	"github.com/oldnicke/etcd/proxy/grpcproxy/adapter"
 )
 
 var (

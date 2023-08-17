@@ -19,8 +19,8 @@ import (
 	"sort"
 	"strings"
 
-	"oldnicke/etcd/raft/quorum"
-	pb "oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/raft/quorum"
+	pb "github.com/oldnicke/etcd/raft/raftpb"
 )
 
 // Config reflects the configuration tracked in a ProgressTracker.

@@ -1,6 +1,6 @@
 package clientv3
 
-import pb "oldnicke/etcd/etcdserver/etcdserverpb"
+import pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 
 type opType int
 

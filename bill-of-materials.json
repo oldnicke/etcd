@@ -324,7 +324,7 @@
 		]
 	},
 	{
-		"project": "oldnicke/etcd",
+		"project": "github.com/oldnicke/etcd",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

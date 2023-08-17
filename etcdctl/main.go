@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"oldnicke/etcd/etcdctl/ctlv2"
-	"oldnicke/etcd/etcdctl/ctlv3"
+	"github.com/oldnicke/etcd/etcdctl/ctlv2"
+	"github.com/oldnicke/etcd/etcdctl/ctlv3"
 )
 
 const (

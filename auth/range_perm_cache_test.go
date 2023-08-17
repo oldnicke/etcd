@@ -3,8 +3,8 @@ package auth
 import (
 	"testing"
 
-	"oldnicke/etcd/auth/authpb"
-	"oldnicke/etcd/pkg/adt"
+	"github.com/oldnicke/etcd/auth/authpb"
+	"github.com/oldnicke/etcd/pkg/adt"
 
 	"go.uber.org/zap"
 )

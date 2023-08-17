@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"oldnicke/etcd/clientv3"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/clientv3"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 )
 
 type maintenanceProxy struct {

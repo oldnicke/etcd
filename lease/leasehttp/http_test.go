@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/oldnicke/etcd/lease"
+	"github.com/oldnicke/etcd/mvcc/backend"
 	"go.uber.org/zap"
-	"oldnicke/etcd/lease"
-	"oldnicke/etcd/mvcc/backend"
 )
 
 func TestRenewHTTP(t *testing.T) {

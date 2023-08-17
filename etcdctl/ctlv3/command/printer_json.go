@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"oldnicke/etcd/clientv3/snapshot"
+	"github.com/oldnicke/etcd/clientv3/snapshot"
 )
 
 type jsonPrinter struct{ printer }

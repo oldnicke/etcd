@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/oldnicke/etcd/pkg/fileutil"
+	"github.com/oldnicke/etcd/wal/walpb"
 	"go.uber.org/zap"
-	"oldnicke/etcd/pkg/fileutil"
-	"oldnicke/etcd/wal/walpb"
 )
 
 // Repair tries to repair ErrUnexpectedEOF in the

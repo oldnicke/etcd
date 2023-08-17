@@ -22,13 +22,12 @@ import (
 	"os"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/snapshot"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/pkg/logutil"
-	"oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/snapshot"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/pkg/logutil"
+	"github.com/oldnicke/etcd/pkg/transport"
 
-	"github.com/dustin/go-humanize"
 	"go.uber.org/zap"
 	grpc "google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

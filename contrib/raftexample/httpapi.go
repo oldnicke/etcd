@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/raft/raftpb"
 )
 
 // Handler for a http based key-value store backed by raft

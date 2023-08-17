@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/snap"
-	stats "oldnicke/etcd/etcdserver/api/v2stats"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/raft"
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/etcdserver/api/snap"
+	stats "github.com/oldnicke/etcd/etcdserver/api/v2stats"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/raft"
+	"github.com/oldnicke/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"

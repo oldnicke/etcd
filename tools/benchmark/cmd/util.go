@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/bgentry/speakeasy"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/pkg/report"
 	"google.golang.org/grpc/grpclog"
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/pkg/report"
 )
 
 var (

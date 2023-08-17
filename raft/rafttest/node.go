@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"oldnicke/etcd/raft"
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/raft"
+	"github.com/oldnicke/etcd/raft/raftpb"
 )
 
 type node struct {

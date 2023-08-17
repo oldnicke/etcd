@@ -16,4 +16,4 @@ package grpcproxy
 
 import "github.com/coreos/pkg/capnslog"
 
-var plog = capnslog.NewPackageLogger("oldnicke/etcd", "grpcproxy")
+var plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "grpcproxy")

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	v3 "oldnicke/etcd/clientv3"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	mvccpb "oldnicke/etcd/mvcc/mvccpb"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	mvccpb "github.com/oldnicke/etcd/mvcc/mvccpb"
 )
 
 type pbPrinter struct{ printer }

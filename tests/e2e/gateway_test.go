@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"oldnicke/etcd/pkg/expect"
+	"github.com/oldnicke/etcd/pkg/expect"
 )
 
 var (

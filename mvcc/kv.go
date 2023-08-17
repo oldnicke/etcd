@@ -1,10 +1,10 @@
 package mvcc
 
 import (
-	"oldnicke/etcd/lease"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/mvcc/mvccpb"
-	"oldnicke/etcd/pkg/traceutil"
+	"github.com/oldnicke/etcd/lease"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
+	"github.com/oldnicke/etcd/pkg/traceutil"
 )
 
 type RangeOptions struct {

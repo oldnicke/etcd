@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "oldnicke/etcd/raft/raftpb"
+	pb "github.com/oldnicke/etcd/raft/raftpb"
 )
 
 func TestStorageTerm(t *testing.T) {

@@ -15,11 +15,11 @@
 package mvcc
 
 import (
+	"github.com/oldnicke/etcd/lease"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
+	"github.com/oldnicke/etcd/pkg/traceutil"
 	"go.uber.org/zap"
-	"oldnicke/etcd/lease"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/mvcc/mvccpb"
-	"oldnicke/etcd/pkg/traceutil"
 )
 
 type storeTxnRead struct {

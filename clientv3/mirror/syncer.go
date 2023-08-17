@@ -4,7 +4,7 @@ package mirror
 import (
 	"context"
 
-	"oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3"
 )
 
 const (

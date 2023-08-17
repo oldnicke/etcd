@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/oldnicke/etcd/client"
 	"github.com/urfave/cli"
-	"oldnicke/etcd/client"
 )
 
 // NewUpdateCommand returns the CLI command for "update".

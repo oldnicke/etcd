@@ -7,7 +7,7 @@ Launch an embedded etcd server using the configuration defaults:
 		"log"
 		"time"
 
-		"oldnicke/etcd/embed"
+		"github.com/oldnicke/etcd/embed"
 	)
 
 	func main() {

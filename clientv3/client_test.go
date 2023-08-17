@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/oldnicke/etcd/pkg/testutil"
 
 	"google.golang.org/grpc"
 )

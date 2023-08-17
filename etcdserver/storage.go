@@ -3,13 +3,13 @@ package etcdserver
 import (
 	"io"
 
-	"oldnicke/etcd/etcdserver/api/snap"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/pkg/pbutil"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/raft/raftpb"
-	"oldnicke/etcd/wal"
-	"oldnicke/etcd/wal/walpb"
+	"github.com/oldnicke/etcd/etcdserver/api/snap"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/pkg/pbutil"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/wal"
+	"github.com/oldnicke/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

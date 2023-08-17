@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/pkg/types"
 )
 
 var (

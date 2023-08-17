@@ -1,8 +1,8 @@
 package rafthttp
 
 import (
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

@@ -5,11 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	v3 "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/snapshot"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-
-	"github.com/dustin/go-humanize"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/snapshot"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 )
 
 type printer interface {

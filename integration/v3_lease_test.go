@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/mvcc/mvccpb"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
+	"github.com/oldnicke/etcd/pkg/testutil"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

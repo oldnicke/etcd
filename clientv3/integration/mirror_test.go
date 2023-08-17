@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/clientv3/mirror"
-	"oldnicke/etcd/integration"
-	"oldnicke/etcd/mvcc/mvccpb"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/clientv3/mirror"
+	"github.com/oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func TestMirrorSync(t *testing.T) {

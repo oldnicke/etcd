@@ -6,9 +6,9 @@ import (
 	"path"
 	"strings"
 
-	"oldnicke/etcd/etcdserver/api"
-	"oldnicke/etcd/etcdserver/api/v2auth"
-	"oldnicke/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/oldnicke/etcd/etcdserver/api"
+	"github.com/oldnicke/etcd/etcdserver/api/v2auth"
+	"github.com/oldnicke/etcd/etcdserver/api/v2http/httptypes"
 
 	"go.uber.org/zap"
 )

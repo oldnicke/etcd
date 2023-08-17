@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"testing"
 
-	"oldnicke/etcd/auth/authpb"
-	epb "oldnicke/etcd/etcdserver/api/v3election/v3electionpb"
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/auth/authpb"
+	epb "github.com/oldnicke/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/pkg/testutil"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 )

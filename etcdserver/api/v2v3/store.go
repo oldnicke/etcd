@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/concurrency"
-	"oldnicke/etcd/etcdserver/api/v2error"
-	"oldnicke/etcd/etcdserver/api/v2store"
-	"oldnicke/etcd/mvcc/mvccpb"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/concurrency"
+	"github.com/oldnicke/etcd/etcdserver/api/v2error"
+	"github.com/oldnicke/etcd/etcdserver/api/v2store"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
 )
 
 // store implements the Store interface for V2 using

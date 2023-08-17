@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	v3 "oldnicke/etcd/clientv3"
+	v3 "github.com/oldnicke/etcd/clientv3"
 )
 
 const defaultSessionTTL = 60

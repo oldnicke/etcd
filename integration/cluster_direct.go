@@ -4,10 +4,10 @@
 package integration
 
 import (
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/etcdserver/api/v3election/v3electionpb"
-	"oldnicke/etcd/etcdserver/api/v3lock/v3lockpb"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/oldnicke/etcd/etcdserver/api/v3lock/v3lockpb"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 )
 
 func toGRPC(c *clientv3.Client) grpcAPI {

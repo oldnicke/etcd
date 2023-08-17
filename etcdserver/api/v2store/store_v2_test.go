@@ -20,8 +20,8 @@ package v2store_test
 import (
 	"testing"
 
-	"oldnicke/etcd/etcdserver/api/v2store"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/etcdserver/api/v2store"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 type v2TestStore struct {

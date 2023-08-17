@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"oldnicke/etcd/embed"
+	"github.com/oldnicke/etcd/embed"
 	"sigs.k8s.io/yaml"
 )
 

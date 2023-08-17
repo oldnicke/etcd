@@ -1,7 +1,7 @@
 package types
 
 import (
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/testutil"
 	"reflect"
 	"testing"
 )

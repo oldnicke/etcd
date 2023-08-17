@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/raft/raftpb"
 )
 
 func TestNetworkDrop(t *testing.T) {

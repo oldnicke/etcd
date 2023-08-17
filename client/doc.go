@@ -7,7 +7,7 @@ Create a Config and exchange it for a Client:
 		"net/http"
 		"context"
 
-		"oldnicke/etcd/client"
+		"github.com/oldnicke/etcd/client"
 	)
 
 	cfg := client.Config{

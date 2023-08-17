@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/v2store"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/etcdserver/api/v2store"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 )
 
 type RequestV2 pb.Request

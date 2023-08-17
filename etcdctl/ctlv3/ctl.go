@@ -4,7 +4,7 @@ package ctlv3
 import (
 	"time"
 
-	"oldnicke/etcd/etcdctl/ctlv3/command"
+	"github.com/oldnicke/etcd/etcdctl/ctlv3/command"
 
 	"github.com/spf13/cobra"
 )

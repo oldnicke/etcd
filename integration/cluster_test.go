@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/client"
-	"oldnicke/etcd/etcdserver"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/client"
+	"github.com/oldnicke/etcd/etcdserver"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func init() {

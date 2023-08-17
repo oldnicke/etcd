@@ -4,9 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/contrib/recipes"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func TestBarrierSingleNode(t *testing.T) {

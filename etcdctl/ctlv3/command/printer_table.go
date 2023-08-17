@@ -3,8 +3,8 @@ package command
 import (
 	"os"
 
-	v3 "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/snapshot"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/snapshot"
 
 	"github.com/olekukonko/tablewriter"
 )

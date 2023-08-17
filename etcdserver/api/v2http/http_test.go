@@ -8,12 +8,12 @@ import (
 	"sort"
 	"testing"
 
-	"oldnicke/etcd/etcdserver"
-	"oldnicke/etcd/etcdserver/api/membership"
-	"oldnicke/etcd/etcdserver/api/v2error"
-	"oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/etcdserver"
+	"github.com/oldnicke/etcd/etcdserver/api/membership"
+	"github.com/oldnicke/etcd/etcdserver/api/v2error"
+	"github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/raft/raftpb"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

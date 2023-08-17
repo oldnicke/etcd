@@ -6,10 +6,10 @@ import (
 	"path"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api"
-	"oldnicke/etcd/etcdserver/api/membership"
-	"oldnicke/etcd/etcdserver/api/v2store"
-	"oldnicke/etcd/pkg/pbutil"
+	"github.com/oldnicke/etcd/etcdserver/api"
+	"github.com/oldnicke/etcd/etcdserver/api/membership"
+	"github.com/oldnicke/etcd/etcdserver/api/v2store"
+	"github.com/oldnicke/etcd/pkg/pbutil"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

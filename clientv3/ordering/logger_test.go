@@ -17,7 +17,7 @@ package ordering
 import (
 	"io/ioutil"
 
-	"oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3"
 
 	"google.golang.org/grpc/grpclog"
 )

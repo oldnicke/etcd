@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/pkg/fileutil"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/fileutil"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func TestCtlV2Set(t *testing.T)          { testCtlV2Set(t, &configNoTLS, false) }

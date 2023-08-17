@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"testing"
 
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

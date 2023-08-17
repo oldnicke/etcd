@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"sync"
 
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/pkg/types"
 )
 
 type urlPicker struct {

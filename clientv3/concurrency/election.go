@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	v3 "oldnicke/etcd/clientv3"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/mvcc/mvccpb"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
 )
 
 var (

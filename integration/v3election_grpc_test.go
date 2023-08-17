@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	epb "oldnicke/etcd/etcdserver/api/v3election/v3electionpb"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/pkg/testutil"
+	epb "github.com/oldnicke/etcd/etcdserver/api/v3election/v3electionpb"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 // TestV3ElectionCampaign checks that Campaign will not give

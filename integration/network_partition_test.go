@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func TestNetworkPartition5MembersLeaderInMinority(t *testing.T) {

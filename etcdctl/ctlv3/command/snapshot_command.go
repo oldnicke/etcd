@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"oldnicke/etcd/clientv3/snapshot"
+	"github.com/oldnicke/etcd/clientv3/snapshot"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"

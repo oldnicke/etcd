@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/integration"
-	"oldnicke/etcd/pkg/testutil"
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/types"
 )
 
 func TestMemberList(t *testing.T) {

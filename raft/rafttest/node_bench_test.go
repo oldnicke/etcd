@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/raft"
+	"github.com/oldnicke/etcd/raft"
 )
 
 func BenchmarkProposal3Nodes(b *testing.B) {

@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/version"
 )
 
 var (

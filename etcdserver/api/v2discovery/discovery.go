@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
-	"oldnicke/etcd/client"
-	"oldnicke/etcd/pkg/transport"
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/client"
+	"github.com/oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/pkg/types"
 
 	"github.com/coreos/pkg/capnslog"
 	"github.com/jonboulle/clockwork"
@@ -25,7 +25,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("oldnicke/etcd", "discovery")
+	plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "discovery")
 
 	ErrInvalidURL           = errors.New("discovery: invalid URL")
 	ErrBadSizeKey           = errors.New("discovery: size key is bad")

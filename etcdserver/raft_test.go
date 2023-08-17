@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/oldnicke/etcd/etcdserver/api/membership"
+	"github.com/oldnicke/etcd/pkg/mock/mockstorage"
+	"github.com/oldnicke/etcd/pkg/pbutil"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/raft"
+	"github.com/oldnicke/etcd/raft/raftpb"
 	"go.uber.org/zap"
-	"oldnicke/etcd/etcdserver/api/membership"
-	"oldnicke/etcd/pkg/mock/mockstorage"
-	"oldnicke/etcd/pkg/pbutil"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/raft"
-	"oldnicke/etcd/raft/raftpb"
 )
 
 func TestGetIDs(t *testing.T) {

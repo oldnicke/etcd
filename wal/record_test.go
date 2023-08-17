@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"oldnicke/etcd/wal/walpb"
+	"github.com/oldnicke/etcd/wal/walpb"
 )
 
 var (

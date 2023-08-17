@@ -3,7 +3,7 @@ package adt_test
 import (
 	"fmt"
 
-	"oldnicke/etcd/pkg/adt"
+	"github.com/oldnicke/etcd/pkg/adt"
 )
 
 func Example() {

@@ -19,7 +19,7 @@ import (
 	"sort"
 	"testing"
 
-	"oldnicke/etcd/functional/rpcpb"
+	"github.com/oldnicke/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

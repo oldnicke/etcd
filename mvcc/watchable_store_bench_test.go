@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"oldnicke/etcd/lease"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/pkg/traceutil"
+	"github.com/oldnicke/etcd/lease"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/pkg/traceutil"
 
 	"go.uber.org/zap"
 )

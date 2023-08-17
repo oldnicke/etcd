@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/pkg/transport"
 
 	"google.golang.org/grpc/grpclog"
 )

@@ -18,7 +18,7 @@ import (
 	"sort"
 	"testing"
 
-	pb "oldnicke/etcd/raft/raftpb"
+	pb "github.com/oldnicke/etcd/raft/raftpb"
 )
 
 func TestFollowerUpdateTermFromMessage(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/pkg/fileutil"
-	"oldnicke/etcd/pkg/testutil"
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/pkg/fileutil"
+	"github.com/oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/version"
 )
 
 // TestReleaseUpgrade ensures that changes to master branch does not affect

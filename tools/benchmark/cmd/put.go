@@ -10,13 +10,11 @@ import (
 	"strings"
 	"time"
 
-	v3 "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/pkg/report"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/pkg/report"
 
-	"github.com/dustin/go-humanize"
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"
-	"gopkg.in/cheggaaa/pb.v1"
 )
 
 // putCmd represents the put command

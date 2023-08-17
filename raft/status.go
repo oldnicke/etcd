@@ -3,8 +3,8 @@ package raft
 import (
 	"fmt"
 
-	pb "oldnicke/etcd/raft/raftpb"
-	"oldnicke/etcd/raft/tracker"
+	pb "github.com/oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/raft/tracker"
 )
 
 // Status contains information about this Raft peer and its view of the system.

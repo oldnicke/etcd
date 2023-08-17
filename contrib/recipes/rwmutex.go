@@ -3,9 +3,9 @@ package recipe
 import (
 	"context"
 
-	v3 "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/concurrency"
-	"oldnicke/etcd/mvcc/mvccpb"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/concurrency"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
 )
 
 type RWMutex struct {

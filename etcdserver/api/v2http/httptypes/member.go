@@ -5,7 +5,7 @@ package httptypes
 import (
 	"encoding/json"
 
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/pkg/types"
 )
 
 type Member struct {

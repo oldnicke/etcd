@@ -3,10 +3,10 @@ package command
 import (
 	"fmt"
 
-	v3 "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/snapshot"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	spb "oldnicke/etcd/mvcc/mvccpb"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/snapshot"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	spb "github.com/oldnicke/etcd/mvcc/mvccpb"
 )
 
 type fieldsPrinter struct{ printer }

@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	lockpb "oldnicke/etcd/etcdserver/api/v3lock/v3lockpb"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/pkg/testutil"
+	lockpb "github.com/oldnicke/etcd/etcdserver/api/v3lock/v3lockpb"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 // TestV3LockLockWaiter tests that a client will wait for a lock, then acquire it

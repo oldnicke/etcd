@@ -9,14 +9,13 @@ import (
 	"os"
 	"time"
 
-	v3 "oldnicke/etcd/clientv3"
-	v3sync "oldnicke/etcd/clientv3/concurrency"
-	"oldnicke/etcd/etcdserver/api/v3lock/v3lockpb"
-	"oldnicke/etcd/pkg/report"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	v3sync "github.com/oldnicke/etcd/clientv3/concurrency"
+	"github.com/oldnicke/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/oldnicke/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"
-	"gopkg.in/cheggaaa/pb.v1"
 )
 
 // stmCmd represents the STM benchmark command

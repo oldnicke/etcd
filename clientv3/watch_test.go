@@ -3,7 +3,7 @@ package clientv3
 import (
 	"testing"
 
-	"oldnicke/etcd/mvcc/mvccpb"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
 )
 
 func TestEvent(t *testing.T) {

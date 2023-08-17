@@ -3,9 +3,9 @@ package etcdserver
 import (
 	"io"
 
-	"oldnicke/etcd/etcdserver/api/snap"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/etcdserver/api/snap"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/raft/raftpb"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

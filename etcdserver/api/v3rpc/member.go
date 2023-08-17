@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"oldnicke/etcd/etcdserver"
-	"oldnicke/etcd/etcdserver/api"
-	"oldnicke/etcd/etcdserver/api/membership"
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/etcdserver"
+	"github.com/oldnicke/etcd/etcdserver/api"
+	"github.com/oldnicke/etcd/etcdserver/api/membership"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/pkg/types"
 )
 
 type ClusterServer struct {

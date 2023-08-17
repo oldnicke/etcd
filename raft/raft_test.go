@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	pb "oldnicke/etcd/raft/raftpb"
-	"oldnicke/etcd/raft/tracker"
+	pb "github.com/oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/raft/tracker"
 )
 
 // nextEnts returns the appliable entries and updates the applied index

@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/etcdserver"
-	"oldnicke/etcd/etcdserver/api/v3rpc"
-	"oldnicke/etcd/proxy/grpcproxy/adapter"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/etcdserver"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc"
+	"github.com/oldnicke/etcd/proxy/grpcproxy/adapter"
 )
 
 // New creates a clientv3 client that wraps an in-process EtcdServer. Instead

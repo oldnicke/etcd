@@ -19,11 +19,11 @@ import (
 	"os"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/snap"
-	"oldnicke/etcd/lease"
-	"oldnicke/etcd/mvcc"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/etcdserver/api/snap"
+	"github.com/oldnicke/etcd/lease"
+	"github.com/oldnicke/etcd/mvcc"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

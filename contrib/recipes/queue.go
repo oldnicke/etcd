@@ -3,8 +3,8 @@ package recipe
 import (
 	"context"
 
-	v3 "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/mvcc/mvccpb"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
 )
 
 // Queue implements a multi-reader, multi-writer distributed queue.

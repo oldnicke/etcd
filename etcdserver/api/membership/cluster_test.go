@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"testing"
 
-	"oldnicke/etcd/etcdserver/api/v2store"
-	"oldnicke/etcd/pkg/mock/mockstore"
-	"oldnicke/etcd/pkg/testutil"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/etcdserver/api/v2store"
+	"github.com/oldnicke/etcd/pkg/mock/mockstore"
+	"github.com/oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

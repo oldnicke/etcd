@@ -70,7 +70,7 @@ Other HTTP APIs will still work (e.g. `[CLIENT-URL]/metrics`, `[CLIENT-URL]/heal
 
 ```diff
 import (
-+	"oldnicke/etcd/clientv3"
++	"github.com/oldnicke/etcd/clientv3"
 
 	"google.golang.org/grpc"
 +	"google.golang.org/grpc/codes"
@@ -94,7 +94,7 @@ _, err := kvc.Get(ctx, "a")
 ```diff
 import (
 	"time"
-	"oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3"
 +	"google.golang.org/grpc"
 )
 
@@ -304,7 +304,7 @@ import "github.com/coreos/etcd/wal"
 import (
     "fmt"
 
-    "oldnicke/etcd/pkg/adt"
+    "github.com/oldnicke/etcd/pkg/adt"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package embed
 import (
 	"path/filepath"
 
-	"oldnicke/etcd/wal"
+	"github.com/oldnicke/etcd/wal"
 )
 
 func isMemberInitialized(cfg *Config) bool {

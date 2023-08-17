@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	v3 "oldnicke/etcd/clientv3"
-	"oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
-	"oldnicke/etcd/pkg/flags"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/oldnicke/etcd/pkg/flags"
 
 	"github.com/spf13/cobra"
 )

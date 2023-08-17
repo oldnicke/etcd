@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 
 	"github.com/coreos/pkg/capnslog"
 	"github.com/jonboulle/clockwork"
@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("oldnicke/etcd", "compactor")
+	plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "compactor")
 )
 
 const (

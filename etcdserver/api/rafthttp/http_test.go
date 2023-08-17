@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/snap"
-	"oldnicke/etcd/pkg/pbutil"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/raft/raftpb"
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/etcdserver/api/snap"
+	"github.com/oldnicke/etcd/pkg/pbutil"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/version"
 
 	"go.uber.org/zap"
 )

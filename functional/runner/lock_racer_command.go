@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"oldnicke/etcd/clientv3/concurrency"
+	"github.com/oldnicke/etcd/clientv3/concurrency"
 
 	"github.com/spf13/cobra"
 )

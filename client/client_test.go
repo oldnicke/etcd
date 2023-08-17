@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/pkg/testutil"
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/version"
 )
 
 type actionAssertingHTTPClient struct {

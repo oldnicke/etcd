@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/raft/raftpb"
 )
 
 // a network interface

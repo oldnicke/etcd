@@ -4,11 +4,11 @@ import (
 	"context"
 	"sync"
 
-	"oldnicke/etcd/auth"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/lease"
-	"oldnicke/etcd/mvcc"
-	"oldnicke/etcd/pkg/traceutil"
+	"github.com/oldnicke/etcd/auth"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/lease"
+	"github.com/oldnicke/etcd/mvcc"
+	"github.com/oldnicke/etcd/pkg/traceutil"
 )
 
 type authApplierV3 struct {

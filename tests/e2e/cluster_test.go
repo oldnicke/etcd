@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"oldnicke/etcd/etcdserver"
+	"github.com/oldnicke/etcd/etcdserver"
 )
 
 const etcdProcessBasePort = 20000

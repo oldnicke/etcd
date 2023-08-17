@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/snap"
-	pioutil "oldnicke/etcd/pkg/ioutil"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/raft/raftpb"
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/etcdserver/api/snap"
+	pioutil "github.com/oldnicke/etcd/pkg/ioutil"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/version"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

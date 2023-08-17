@@ -3,7 +3,7 @@ package membership
 import (
 	"errors"
 
-	"oldnicke/etcd/etcdserver/api/v2error"
+	"github.com/oldnicke/etcd/etcdserver/api/v2error"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"oldnicke/etcd/proxy/tcpproxy"
+	"github.com/oldnicke/etcd/proxy/tcpproxy"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"

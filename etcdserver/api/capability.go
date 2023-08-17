@@ -3,8 +3,8 @@ package api
 import (
 	"sync"
 
+	"github.com/oldnicke/etcd/version"
 	"go.uber.org/zap"
-	"oldnicke/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"github.com/coreos/pkg/capnslog"
@@ -18,7 +18,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("oldnicke/etcd", "etcdserver/api")
+	plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "etcdserver/api")
 
 	// capabilityMaps is a static map of version to capability map.
 	capabilityMaps = map[string]map[Capability]bool{

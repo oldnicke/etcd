@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/oldnicke/etcd/lease"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
 	"go.uber.org/zap"
-	"oldnicke/etcd/lease"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/mvcc/mvccpb"
 )
 
 // TestWatcherWatchID tests that each watcher provides unique watchID,

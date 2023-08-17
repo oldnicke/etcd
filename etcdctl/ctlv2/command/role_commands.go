@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/oldnicke/etcd/client"
+	"github.com/oldnicke/etcd/pkg/pathutil"
 	"github.com/urfave/cli"
-	"oldnicke/etcd/client"
-	"oldnicke/etcd/pkg/pathutil"
 )
 
 func NewRoleCommands() cli.Command {

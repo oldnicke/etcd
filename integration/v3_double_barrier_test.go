@@ -4,8 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/clientv3/concurrency"
-	"oldnicke/etcd/contrib/recipes"
+	"github.com/oldnicke/etcd/clientv3/concurrency"
 )
 
 func TestDoubleBarrier(t *testing.T) {

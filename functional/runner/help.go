@@ -11,7 +11,7 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/version"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/embed"
-	"oldnicke/etcd/etcdserver"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/embed"
+	"github.com/oldnicke/etcd/etcdserver"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 // TestSnapshotV3RestoreMultiMemberAdd ensures that multiple members

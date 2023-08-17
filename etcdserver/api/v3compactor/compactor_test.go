@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync/atomic"
 
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/pkg/testutil"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 type fakeCompactable struct {

@@ -5,8 +5,6 @@ import (
 	"math/rand"
 	"sync/atomic"
 	"testing"
-
-	"oldnicke/etcd/contrib/recipes"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"oldnicke/etcd/client"
+	"github.com/oldnicke/etcd/client"
 )
 
 const (

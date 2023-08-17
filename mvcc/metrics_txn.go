@@ -14,7 +14,7 @@
 
 package mvcc
 
-import "oldnicke/etcd/lease"
+import "github.com/oldnicke/etcd/lease"
 
 type metricsTxnWrite struct {
 	TxnWrite

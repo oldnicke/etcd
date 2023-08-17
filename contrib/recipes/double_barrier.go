@@ -3,9 +3,9 @@ package recipe
 import (
 	"context"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/concurrency"
-	"oldnicke/etcd/mvcc/mvccpb"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/concurrency"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
 )
 
 // DoubleBarrier blocks processes on Enter until an expected count enters, then

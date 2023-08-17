@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/v2error"
-	"oldnicke/etcd/etcdserver/api/v2store"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/etcdserver/api/v2error"
+	"github.com/oldnicke/etcd/etcdserver/api/v2store"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 type StoreCloser interface {

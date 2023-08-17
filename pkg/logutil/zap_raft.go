@@ -17,7 +17,7 @@ package logutil
 import (
 	"errors"
 
-	"oldnicke/etcd/raft"
+	"github.com/oldnicke/etcd/raft"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

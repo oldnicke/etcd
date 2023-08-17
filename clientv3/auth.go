@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/oldnicke/etcd/auth/authpb"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 	"google.golang.org/grpc"
-	"oldnicke/etcd/auth/authpb"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
 )
 
 type (

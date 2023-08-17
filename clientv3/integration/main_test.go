@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func TestMain(m *testing.M) {

@@ -18,9 +18,9 @@ import (
 	"context"
 	"errors"
 
-	"oldnicke/etcd/clientv3"
-	"oldnicke/etcd/clientv3/concurrency"
-	epb "oldnicke/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3/concurrency"
+	epb "github.com/oldnicke/etcd/etcdserver/api/v3election/v3electionpb"
 )
 
 // ErrMissingLeaderKey is returned when election API request

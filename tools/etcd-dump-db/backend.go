@@ -3,13 +3,13 @@ package main
 import (
 	"encoding/binary"
 	"fmt"
-	"oldnicke/etcd/auth/authpb"
+	"github.com/oldnicke/etcd/auth/authpb"
 	"path/filepath"
 
-	"oldnicke/etcd/lease/leasepb"
-	"oldnicke/etcd/mvcc"
-	"oldnicke/etcd/mvcc/backend"
-	"oldnicke/etcd/mvcc/mvccpb"
+	"github.com/oldnicke/etcd/lease/leasepb"
+	"github.com/oldnicke/etcd/mvcc"
+	"github.com/oldnicke/etcd/mvcc/backend"
+	"github.com/oldnicke/etcd/mvcc/mvccpb"
 
 	bolt "go.etcd.io/bbolt"
 )

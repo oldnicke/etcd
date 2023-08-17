@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/testutil"
 
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )

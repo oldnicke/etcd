@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"oldnicke/etcd/clientv3"
+	"github.com/oldnicke/etcd/clientv3"
 
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc/codes"

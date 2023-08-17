@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"oldnicke/etcd/raft/raftpb"
-	"oldnicke/etcd/wal/walpb"
+	"github.com/oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

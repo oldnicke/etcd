@@ -3,8 +3,8 @@ package command
 import (
 	"fmt"
 
+	"github.com/oldnicke/etcd/client"
 	"github.com/urfave/cli"
-	"oldnicke/etcd/client"
 )
 
 func NewLsCommand() cli.Command {

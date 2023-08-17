@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	"oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/pkg/types"
 )
 
 // UniqueURLs contains unique URLs

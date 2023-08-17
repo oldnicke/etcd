@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/pkg/transport"
+	"github.com/oldnicke/etcd/pkg/transport"
 
 	"sigs.k8s.io/yaml"
 )

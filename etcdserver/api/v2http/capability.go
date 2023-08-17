@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"oldnicke/etcd/etcdserver/api"
-	"oldnicke/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/oldnicke/etcd/etcdserver/api"
+	"github.com/oldnicke/etcd/etcdserver/api/v2http/httptypes"
 )
 
 func authCapabilityHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/integration"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/integration"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 // TestMain sets up an etcd cluster if running the examples.

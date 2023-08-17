@@ -12,7 +12,7 @@ import (
 	"go.uber.org/zap"
 )
 
-var plog = capnslog.NewPackageLogger("oldnicke/etcd", "proxy/tcpproxy")
+var plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "proxy/tcpproxy")
 
 type remote struct {
 	mu       sync.Mutex

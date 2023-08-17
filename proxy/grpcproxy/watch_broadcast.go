@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"oldnicke/etcd/clientv3"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/clientv3"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
 )
 
 // watchBroadcast broadcasts a server watcher to many client watchers.

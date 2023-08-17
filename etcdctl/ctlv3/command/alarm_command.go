@@ -3,8 +3,8 @@ package command
 import (
 	"fmt"
 
+	v3 "github.com/oldnicke/etcd/clientv3"
 	"github.com/spf13/cobra"
-	v3 "oldnicke/etcd/clientv3"
 )
 
 // NewAlarmCommand returns the cobra command for "alarm".

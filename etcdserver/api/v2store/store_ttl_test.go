@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/v2error"
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/etcdserver/api/v2error"
+	"github.com/oldnicke/etcd/pkg/testutil"
 
 	"github.com/jonboulle/clockwork"
 )

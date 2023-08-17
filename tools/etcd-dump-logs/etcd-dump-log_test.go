@@ -24,13 +24,13 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/oldnicke/etcd/auth/authpb"
+	"github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/pkg/fileutil"
+	"github.com/oldnicke/etcd/pkg/pbutil"
+	"github.com/oldnicke/etcd/raft/raftpb"
+	"github.com/oldnicke/etcd/wal"
 	"go.uber.org/zap"
-	"oldnicke/etcd/auth/authpb"
-	"oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/pkg/fileutil"
-	"oldnicke/etcd/pkg/pbutil"
-	"oldnicke/etcd/raft/raftpb"
-	"oldnicke/etcd/wal"
 )
 
 func TestEtcdDumpLogEntryType(t *testing.T) {

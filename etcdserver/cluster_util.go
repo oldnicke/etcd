@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"oldnicke/etcd/etcdserver/api/membership"
-	"oldnicke/etcd/pkg/types"
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/etcdserver/api/membership"
+	"github.com/oldnicke/etcd/pkg/types"
+	"github.com/oldnicke/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

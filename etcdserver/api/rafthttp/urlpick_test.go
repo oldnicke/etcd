@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"testing"
 
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 // TestURLPickerPickTwice tests that pick returns a possible url,

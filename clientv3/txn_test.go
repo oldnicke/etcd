@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"oldnicke/etcd/pkg/testutil"
+	"github.com/oldnicke/etcd/pkg/testutil"
 )
 
 func TestTxnPanics(t *testing.T) {

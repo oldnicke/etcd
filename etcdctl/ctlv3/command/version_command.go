@@ -3,7 +3,7 @@ package command
 import (
 	"fmt"
 
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/version"
 
 	"github.com/spf13/cobra"
 )

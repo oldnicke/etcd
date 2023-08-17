@@ -3,8 +3,8 @@ package command
 import (
 	"errors"
 
+	"github.com/oldnicke/etcd/client"
 	"github.com/urfave/cli"
-	"oldnicke/etcd/client"
 )
 
 // NewRemoveCommand returns the CLI command for "rm".

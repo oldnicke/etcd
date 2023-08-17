@@ -15,7 +15,7 @@ const (
 	PrivateFileMode = 0600
 )
 
-var plog = capnslog.NewPackageLogger("oldnicke/etcd", "pkg/fileutil")
+var plog = capnslog.NewPackageLogger("github.com/oldnicke/etcd", "pkg/fileutil")
 
 // IsDirWriteable checks if dir is writable by writing and removing a file
 // to dir. It returns nil if dir is writable.

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	v3 "oldnicke/etcd/clientv3"
-	pb "oldnicke/etcd/mvcc/mvccpb"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	pb "github.com/oldnicke/etcd/mvcc/mvccpb"
 
 	"github.com/spf13/cobra"
 )

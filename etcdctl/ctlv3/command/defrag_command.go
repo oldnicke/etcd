@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/oldnicke/etcd/mvcc/backend"
 	"github.com/spf13/cobra"
-	"oldnicke/etcd/mvcc/backend"
 )
 
 var (

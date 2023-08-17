@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/bgentry/speakeasy"
+	"github.com/oldnicke/etcd/client"
 	"github.com/urfave/cli"
-	"oldnicke/etcd/client"
 )
 
 func NewUserCommands() cli.Command {

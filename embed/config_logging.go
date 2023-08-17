@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"sync"
 
-	"oldnicke/etcd/pkg/logutil"
+	"github.com/oldnicke/etcd/pkg/logutil"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"
@@ -106,7 +106,7 @@ func (cfg *Config) setupLogging() error {
 
 		// TODO: deprecate with "capnslog"
 		if cfg.LogPkgLevels != "" {
-			repoLog := capnslog.MustRepoLogger("oldnicke/etcd")
+			repoLog := capnslog.MustRepoLogger("github.com/oldnicke/etcd")
 			settings, err := repoLog.ParseLogLevelConfig(cfg.LogPkgLevels)
 			if err != nil {
 				plog.Warningf("couldn't parse log level string: %s, continuing with default levels", err.Error())

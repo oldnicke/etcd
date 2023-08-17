@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	v3 "oldnicke/etcd/clientv3"
-	spb "oldnicke/etcd/mvcc/mvccpb"
+	v3 "github.com/oldnicke/etcd/clientv3"
+	spb "github.com/oldnicke/etcd/mvcc/mvccpb"
 )
 
 var (

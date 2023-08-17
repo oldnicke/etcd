@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"oldnicke/etcd/version"
+	"github.com/oldnicke/etcd/version"
 )
 
 func TestV3MetricsSecure(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/oldnicke/etcd/clientv3"
 	"github.com/spf13/cobra"
-	"oldnicke/etcd/clientv3"
 )
 
 var (

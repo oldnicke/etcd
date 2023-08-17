@@ -3,9 +3,9 @@ package grpcproxy
 import (
 	"context"
 
-	"oldnicke/etcd/clientv3"
-	pb "oldnicke/etcd/etcdserver/etcdserverpb"
-	"oldnicke/etcd/proxy/grpcproxy/cache"
+	"github.com/oldnicke/etcd/clientv3"
+	pb "github.com/oldnicke/etcd/etcdserver/etcdserverpb"
+	"github.com/oldnicke/etcd/proxy/grpcproxy/cache"
 )
 
 type kvProxy struct {
